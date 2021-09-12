@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADDBFF"
+    tools:context=".Activities.NoteActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ADDBFF"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/upload_photo3"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="5dp"
+            android:id="@+id/image"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/date"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:background="@drawable/calander" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:background="@drawable/notebook8"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="title"
+                android:id="@+id/title"
+                android:textSize="30sp"
+                android:layout_below="@+id/date"
+                android:layout_marginTop="40dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="body"
+                android:textSize="20sp"
+                android:id="@+id/body"
+                android:selectAllOnFocus="false"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:backgroundTint="#ADDBFF"
+        android:text="save"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/save"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:backgroundTint="#ADDBFF"
+        android:text="delete"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/delete"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"/>
+
+</LinearLayout>

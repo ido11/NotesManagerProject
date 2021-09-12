@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/drawable/ic_add.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/drawable/ic_back.xml" value="0.2203125" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/drawable/ic_calander.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/drawable/ic_delete.xml" value="0.2203125" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/drawable/ic_image.xml" value="0.2203125" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout-v21/my_row.xml" value="0.33" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_map.xml" value="0.22" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_note.xml" value="0.22" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_notes_list.xml" value="0.1125" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/activity_start.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/layout/my_row.xml" value="0.43460350154479915" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/menu/popup_menu.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/menu/top_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Owner/Desktop/moveoProject/NotesManager/app/src/main/res/menu/top_menu_note.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
